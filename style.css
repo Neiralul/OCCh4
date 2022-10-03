@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: white!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1038,5 +1038,57 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+/* Ajouts */
+
+.quote {
+    font-size: 16px;
+}
+.italique {
+    font-style: italic;
+    font-size: 18px;
+}
+.resizing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.resizing > h1 {
+    align-self: center;
+}
+.resizing > p {
+    font-size: 16px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .img-responsive {
+        width: 60%;
+        height: 60%;
+        position: relative;
+        left: 20%;
+    }
+    .social {
+        display: flex;
+        justify-content: center;
+        padding: 0px 10px;
+    }
+    #form_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+    }
+    .affiche {
+        width: 95%;
+        position: relative;
+        left: 2.5%;
     }
 }
